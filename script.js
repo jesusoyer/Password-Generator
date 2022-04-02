@@ -29,7 +29,7 @@ const list3 =["0","1","2","3","4","5","6","7","8","9"]
 function generatePassword(){
         
    alert("Your password must contain 8 characters but less than 128 characters.")
-   let choice = window.prompt("Would you like for your password to contain only lowercase letter? yes/no")
+   let choice = window.prompt("Would you like for your password to contain only lowercase letters? yes/no")
    if(choice==="yes"){
       lowerCasePass();
    }else if(choice==="no"){
@@ -125,7 +125,7 @@ var passwordText = document.querySelector("#password");
 
 
 function generate4 (){
-   let choice4 = window.prompt("Would you like your password to contain only capital? yes/no")
+   let choice4 = window.prompt("Would you like your password to contain only capital letters? yes/no")
    if(choice4==="yes"){
         capitalPass(); 
    } else if(choice4==="no"){
