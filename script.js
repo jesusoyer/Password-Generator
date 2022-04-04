@@ -41,7 +41,7 @@ function lowerCasePass(){
    let choice = window.prompt("How many characters would you like your password to be?", );
    
    if(choice<8 || choice>128){
-      alert("Your password is length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
+      alert("Your password length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
       lowerCasePass();
    } else {
 
@@ -72,7 +72,7 @@ function generate2 (){
 function symbolPass(){
    let choice = window.prompt("How many charactors would you like your password to be?", );
    if(choice<8 || choice>128){
-      alert("Your password is length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
+      alert("Your password length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
       symbolPass();
    } else{
    let newNum2 = []
@@ -103,7 +103,7 @@ function generate3 (){
 function numberPass(){
    let choice = window.prompt("How many charactors would you like your password to be?", );
    if(choice<8 || choice>128){
-      alert("Your password is length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
+      alert("Your password length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
       numberPass();
    } else{
    let newNum3 = []
@@ -135,7 +135,7 @@ function generate4 (){
 function capitalPass(){
    let choice = window.prompt("How many charactors would you like your password to be?", );
    if(choice<8 || choice>128){
-      alert("Your password is length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
+      alert("Your password length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
       capitalPass();
    } else{
    let newNum4 = []
@@ -165,7 +165,7 @@ function generate5 (){
 function allPass(){
    let choice = window.prompt("How many charactors would you like your password to be?", );
    if(choice<8 || choice>128){
-      alert("Your password is length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
+      alert("Your password length isn't able to calculate, it must be more than 8 characters but less than 128 characters")
       allPass();
    } else{
    let newNum5 = []
